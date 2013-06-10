@@ -1,0 +1,10 @@
+cron:
+- description: daily summary job
+  url: /tasks/update
+  schedule: every 12 hours
+- description: user count update
+  url: /tasks/count
+  schedule: every 6 hours
+- description: clean user job
+  url: /tasks/cleanuser
+  schedule: every day 20:00
